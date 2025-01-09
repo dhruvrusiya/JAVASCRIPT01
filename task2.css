@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+
+}
+
+.page1 button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: black;
+}
+.button1{
+    height: 300px;
+    width: 300px;
+   
+    align-items: center;
+    
+    justify-content: center;
+}
