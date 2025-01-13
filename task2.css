@@ -10,9 +10,20 @@ body{
     background-color: black;
 }
 .button1{
+  display: flex;
+ 
+  justify-content: center;
   
+  margin-top: 33vh;
    
-    align-items: center;
     
-    justify-content: center;
 }
+.button2{
+    display: flex;
+   
+    justify-content: center;
+    
+   
+     
+      
+  }
