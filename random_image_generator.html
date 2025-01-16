@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this the random image generator </h1>
+   code <p id="clrcode"></p>
+
+   <button onclick="" > click to chnage the image</button>
+
+   <script>
+    let x=[
+    "pexels-th-ng-van-3356029-8001947.jpg",
+    "-original-imah4jyfh9tjbahu.jpeg",
+    "-original-imah4jyfpxjxxuqy.jpeg",
+    ]
+
+    const random=()=>{
+        let y=Math.floor(Math.random()*x.length);
+    
+    document.getElementById("clrcode").innerHTML="<img src="+x[y]+" height='300px' width='300px' >" ;
+}
+
+setInterval('random()',1000)
+   </script>
+
+</body>
+</html>
