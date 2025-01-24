@@ -45,3 +45,7 @@ let person_ob= {
 }
 
 localStorage.setItem("userdata",JSON.stringify(person_ob))
+
+let data=JSON.parse(localStorage.getItem('userdata'))
+console.log(data);
+console.log(data.name)
