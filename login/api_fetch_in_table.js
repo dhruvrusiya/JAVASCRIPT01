@@ -11,6 +11,8 @@ async function retrive_data(){
     `).join("")
     document.querySelector('#displaydata').innerHTML=tdata
 
+    //data fetch using api
+
 }
 
 retrive_data()
